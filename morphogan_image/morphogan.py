@@ -101,7 +101,7 @@ class MORPHOGAN(object):
     def create_encoder(self):
         if self.nnet_type == 'dcgan' and self.db_name == 'mnist':
             return encoder_dcgan_mnist
-        elif self.nnet_type == 'dcgan' and self.db_name == 'galaxyzoo':
+        elif self.nnet_type == 'hdcgan' and self.db_name == 'galaxyzoo':
             return encoder_hdcgan_galaxyzoo
         else:
             print('The dataset are not supported by the network');            
@@ -147,7 +147,7 @@ class MORPHOGAN(object):
             
                        
             #########################################################################################
-            #Gradient penalty
+            #DRAGAN gradient penalty integration
             alpha = tf.random_uniform(
                 shape=[mb_size,1], 
                 minval=0.,
