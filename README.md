@@ -7,7 +7,7 @@ Code accompanying our [Morpho-GAN](https://www.koreascience.or.kr/article/CFKO20
 
 ### Dependencies
 Python 2.7 or 3.x, Numpy, scikit-learn, Tensorflow, Keras (1D demo) <br>
-For Python 3.x - `import pickle` in the file `distgan_image/modules/dataset.py`
+For Python 3.x - `import pickle` in the file `morphogan_image/modules/dataset.py`
 
 ### Getting Started
 We conduct experiments of our model with proposed Morpho-GAN architecture. 
