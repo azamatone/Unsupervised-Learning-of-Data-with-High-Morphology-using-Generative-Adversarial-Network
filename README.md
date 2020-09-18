@@ -16,7 +16,7 @@ In case of other architecture, have your <br>
 `nnet_type` parameter set to the correct network type and 
 `noise_dim` parameter set to the correct latent variable dimension for that network.
 
-#### Image data (MNIST, CelebA and CIFAR-10)
+#### Image data (Galaxy Zoo and MNIST)
 
 We provide our code for image datasets Galaxy Zoo and optional MNIST.
 
