@@ -12,10 +12,7 @@ from modules import ops
 
 class MORPHOGAN(object):
 
-    """
-    Implementation of GAN methods.
-    """
-
+  
     def __init__(self, model='morphogan', \
                  lambda_p = 1.0, lambda_r = 1.0, lambda_w = 0.15625, \
                  ncritics = 1, \
